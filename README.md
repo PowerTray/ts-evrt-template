@@ -26,11 +26,12 @@ Starter using Vite, React, Typescript, Electron for fast prototyping.
 
 ## How to use
 
-1. Clone the repository
-2. Install the dependencies with `npm install`
-3. Start the development server with `npm run dev`
-4. Build the app with `npm run build`
-5. Package the app with `npm run dist`
+1. Clone the repository: `git clone https://github.com/Alask-Code/ts-electron-vite-react-tailwind`
+2. Navigate into the directory: `cd ts-electron-vite-react-tailwind`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm run dev`
+5. Build the app: `npm run build`
+6. Package the app: `npm run dist`
 
 ## Structure
 
