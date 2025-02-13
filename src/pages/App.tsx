@@ -6,7 +6,7 @@ function App() {
   return (
     <SafeView>
       <AppBar />
-      <div className="gap-2 flex flex-col items-center justify-center text-blue-600">
+      <div className="gap-2 flex flex-col items-center justify-center text-blue-400">
         <a
           href="https://vitejs.dev"
           target="_blank"
