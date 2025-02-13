@@ -1,4 +1,4 @@
-# TS & Electron, Vite, React, TailwindCSS and Material Tailwind
+# TS & Electron, Vite, React and TailwindCSS
 
 Starter using Vite, React, Typescript, Electron for fast prototyping.
 
@@ -8,7 +8,7 @@ Starter using Vite, React, Typescript, Electron for fast prototyping.
 - Latest React and Typescript
 - Electron for desktop apps
 - TailwindCSS for styling
-- Material Tailwind for React components
+- Tailwind for Styling components
 - Prettier and ESLint for code formatting and linting
 
 ## Scripts

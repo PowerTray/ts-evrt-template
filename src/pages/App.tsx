@@ -29,7 +29,7 @@ function App() {
           rel="noopener noreferrer"
           className="hover:text-blue-800 transition-colors duration-300 ease-in-out text-2xl font-bold"
         >
-          With the Power of Electron, desktop apps made easy,
+          With Electron, desktop apps made easy,
         </a>
         <a
           href="https://material-tailwind.com"
@@ -37,7 +37,7 @@ function App() {
           rel="noopener noreferrer"
           className="hover:text-blue-800 transition-colors duration-300 ease-in-out text-2xl font-bold"
         >
-          Beautiful UI, with TailwindCSS and Material Tailwind,
+          Beautiful UI, with TailwindCSS,
         </a>
         <a
           href="https://www.typescriptlang.org/docs/"
@@ -45,7 +45,7 @@ function App() {
           rel="noopener noreferrer"
           className="hover:text-blue-800 transition-colors duration-300 ease-in-out text-2xl font-bold"
         >
-          And all of this, made possible with TypeScript.
+          And all of this, made possible with TypeScript
         </a>
       </div>
       <p className="text-xl py-10">
