@@ -8,7 +8,6 @@ Starter using Vite, React, Typescript, Electron for fast prototyping.
 - Latest React and Typescript
 - Electron for desktop apps
 - TailwindCSS for styling
-- Tailwind for Styling components
 - Prettier and ESLint for code formatting and linting
 
 ## Scripts
