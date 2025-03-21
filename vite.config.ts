@@ -22,7 +22,7 @@ function plugins(isDev: boolean) {
     react(),
     electron([
       {
-        entry: join(root, 'electron/index.ts'),
+        entry: join(root, 'electron/app.ts'),
         onstart(options) {
           options.startup();
         },
