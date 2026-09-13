@@ -5,5 +5,9 @@ interface SafeViewProps {
 }
 
 export default function SafeView({ children }: SafeViewProps) {
-  return <div className="bg-gray-100 w-screen h-screen flex flex-col items-center justify-center">{children}</div>;
+  return (
+    <div className="overflow-hidden bg-zinc-700 text-white text-3xl w-screen h-screen flex flex-col items-center justify-center">
+      {children}
+    </div>
+  );
 }
