@@ -1,5 +1,5 @@
 import { join } from 'path';
-import { BrowserWindow, shell } from 'electron';
+import { BrowserWindow } from 'electron';
 import isDev from 'electron-is-dev';
 
 export default function createWindow() {
@@ -14,10 +14,6 @@ export default function createWindow() {
   isDev ? window.loadURL('http://localhost:3000') : window.loadFile(join(__dirname, '../dist-vite/index.html'));
 
   window.webContents.openDevTools();
-  window.webContents.setWindowOpenHandler((details) => {
-    shell.openExternal(details.url);
-    return { action: 'deny' };
-  });
 
   return window;
 }
